@@ -17,6 +17,7 @@ const Home = () => {
 
   return (
     <div className='film-list'>
+    
     {
         films.map((film, index) => (
           <FilmCard film={film} key={index}/>
