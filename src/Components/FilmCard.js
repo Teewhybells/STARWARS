@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 const FilmCard = (props) => {
   const id = props.film.url.substr(props.film.url.length-2, 1)
-  console.log(id)
   
   return (
     <div className='film-card'>

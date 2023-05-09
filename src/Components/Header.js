@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h3>Starwars</h3>
+    <h3 className='brand'>Starwars</h3>
   )
 }
 
